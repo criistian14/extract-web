@@ -1,0 +1,42 @@
+{
+  "name": "extract-web",
+  "version": "1.0.0",
+  "description": "Extraer la información que se desee de la web que se especifique.",
+  "main": "electron.js",
+  "scripts": {
+    "start": "nodemon ./server/index.js",
+    "dev": "webpack-dev-server --open",
+    "build": "webpack --mode production",
+    "electron:dev": "electron .",
+    "electron:build": "electron-builder ."
+  },
+  "author": "Christian",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "electron": "^4.1.0",
+    "electron-builder": "^20.39.0",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "merge": "^1.2.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "nodemon": "^1.18.10",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-router-dom": "^4.4.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
