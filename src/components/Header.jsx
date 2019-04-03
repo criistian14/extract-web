@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { AppBar, Toolbar, IconButton, Typography, Button } from '@material-ui/core'
 import { Close } from '@material-ui/icons'
-import '../../pac'
 
 
 const styles = theme => ({

@@ -1,3 +1,8 @@
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 header {
     -webkit-app-region: drag;
 }
@@ -5,4 +10,10 @@ header {
 
 button {
     -webkit-app-region: no-drag;
+}
+
+
+
+.container {
+    padding: 10px 20px;
 }
